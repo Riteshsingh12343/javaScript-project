@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  Notes App </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="nav">
+        <div>
+            <a class="logo" href="#">  Notes </a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="heading">Welcome to  Help Notes App </h1>
+        <hr>
+        <div class="input">
+            <div class="card-body">
+                <h2 class="card-title">Add Note</h2>
+                <div>
+                    <textarea class="form-control" rows="5" id="addTxt"></textarea>
+                </div>
+                <button href="#" class="primary-btn" id="addBtn">Add Note</button>
+            </div>
+        </div>
+
+        <h1 class="notes-heading">Your Notes</h1>
+        <hr>
+        <div id="notes" class="output-container"> </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
